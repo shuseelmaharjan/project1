@@ -92,6 +92,7 @@ font-family: 'Parisienne', cursive;
       align-items: center;
       justify-content: center;
       width: 100%;
+      
 }
 .banner .container .home-design h1{
       color: #fff;
@@ -181,6 +182,28 @@ font-family: 'Parisienne', cursive;
       color: #fff;
       font-family: 'Open Sans', sans-serif;
       text-align: center;
+}
+.container .home-design .heading-content button{
+    background: red;
+    color: #fff;
+    padding: 5px 20px;
+    align-items: center;
+    margin-left: 35%;
+    margin-top: 20px;
+    outline: none;
+    border: none;
+    border-radius: 15px;
+
+}
+.container .home-design .heading-content button:hover{
+    background-color: #be712b;
+    transition: 0.5s ease;
+}
+.container .home-design .heading-content button a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+
 }
 /* start of content of page*/
 .content1 .container{
@@ -508,6 +531,175 @@ footer .container .col ul li i{
 .navbar.sticky .icon.cancel-btn{
     top: 10px;
 }
+
+  /*============================
+  ==============================
+  blog page css
+  ==============================
+  ============================*/
+.container .blog{
+}
+.container .blog .top-banner{
+    background: url(../images/blog-banner.jpg) ;
+    height: 80vh;
+    padding-top: 50px;
+
+}
+.container .blog .top-banner .highlight-content{
+    background: rgba(197, 197, 197, 0.8);
+    width: 80%;
+    height: 80%;
+    margin-top: 5%;
+    display: flex;
+    padding-left: 60px;
+}
+.container .blog .top-banner .highlight-content img{
+    width: 300px;
+    height: 350px;
+    padding: 50px 20px;
+
+}
+.container .blog .top-banner .highlight-content .reading{
+    margin-top: 50px;
+}
+.container .blog .top-banner .highlight-content .reading h1{
+    font-size: 13px;
+    padding: 5px 20px;
+
+}
+.container .blog .top-banner .highlight-content .reading h2{
+    font-size: 26px;
+    padding-left: 15px;
+}
+.container .blog .top-banner .highlight-content .reading p{
+    font-size: 16px;
+    padding: 15px 20px;
+    text-align: justify;
+
+}
+.container .blog .breaking{
+    background: #002245;
+    display: flex;
+}
+.container .blog .breaking h1{
+    font-size: 30px;
+    padding: 15px 10px;
+    color: #fff;
+    margin-left: 10%;
+}
+.container .blog .breaking button{
+    background: #0071bc;
+    padding: 5px 20px;
+    border: none;
+    height: 40px;
+    margin-top: 13px;
+}
+.container .blog .breaking button:hover{
+    background: #04c214;
+    transition: 0.5s ease;
+}
+.container .blog .breaking button a{
+    font-size: 16px;
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 100;
+}
+.container .blog h1{
+    margin-left: 5%;
+    padding: 15px 0px;
+
+}
+.container .blog .wrapper .topics ul{
+    display: flex;
+    margin-left: 5%;
+
+}
+.container .blog .wrapper .topics ul li{
+    list-style: none;
+    padding: 5px 10px;
+}
+.container .blog .wrapper .topics ul li a{
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    color: red;
+}
+.container .blog .wrapper{
+    margin-left: 10%;
+    width: 80%;
+}
+.container .blog .wrapper .books{
+    display: flex;
+    margin-top: 10px;
+    border-bottom: #838996 1px solid;
+}
+.container .blog .wrapper .books img{
+    padding: 15px 10px;
+    width: 100px;
+}
+.container .blog .wrapper .books .reading h1{
+    font-size: 14px;
+    font-weight: 100;
+}
+.container .blog .wrapper .books .reading h2{
+    font-size: 18px;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+.container .blog .wrapper .books .reading p{
+    font-size: 13px;
+    padding: 5px 10px;
+}
+.container .blog .wrapper .books .reading h2:hover{
+    color: red;
+    text-decoration: underline;
+    transition: 0.5s ease;
+}
+.container .blog .news{
+    background: #002245;
+    width: 60%;
+    margin-top: 50px;
+    margin-left: 10%;
+    padding: 20px 0px;
+    margin-bottom: 50px;
+}
+.container .blog .news h1{
+    font-size: 30px;
+    color: #fff;
+}
+.container .blog .news p{
+    font-size: 14px;
+    color: #fff;
+    padding: 20px 5px;
+    margin-left: 5%;
+
+}
+.container .blog .news h2{
+    margin-left: 5%;
+    color: #fff;
+}
+.container .blog .news h3{
+    background: #fff;
+    margin-left: 5%;
+    width: 17%;
+    padding: 5px 10px;
+    text-align: center;
+}
+.container .blog .news h3:hover{
+    background: red;
+    transition: 0.2s ease;
+}
+.container .blog .news h3 a:hover{
+    color: #fff;
+
+}
+.container .blog .news h3 a{
+    text-decoration: none;
+    color: #002245;
+    align-items: center;
+    text-align: center;
+}
 @media (max-width: 868px) {
     body.disabledScroll{
       overflow: hidden;
@@ -814,30 +1006,29 @@ footer .container .col ul li i{
     margin-left: 150px;
 }
 .service .container .wrapper{
-    display: block;
+    display: flex;
     margin-top: 30px;
 }
 .service .container .wrapper .box{
     width: 20%;
-    background: #dde6ff;
+    background: #be712b;
     padding: 10px 5px;
     height: 300px;
     text-align: center;
-    display: inline-block;
-    margin-left: 15px;
+    margin-left: 4%;
     border-radius: 15px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 .service .container .wrapper .box i{
     font-size: 150px;
-    color: #e41314;
+    color: #fff;
     text-align: center;
 
 }
 .service .container .wrapper .box h1{
     font-size: 24px;
     padding: 30px 0px;
-    color: rgb(0, 75, 237);
+    color: #FFF;
 }
 .service .container .table h1{
     color: #be712b;
