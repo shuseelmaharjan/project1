@@ -606,7 +606,7 @@ footer .container .col ul li i{
     font-weight: 100;
 }
 .container .blog h1{
-    margin-left: 5%;
+    margin-left: 10%;
     padding: 15px 0px;
 
 }
@@ -618,12 +618,21 @@ footer .container .col ul li i{
 .container .blog .wrapper .topics ul li{
     list-style: none;
     padding: 5px 10px;
+    border-right: #3e3e3e 1px solid;
+}
+.container .blog .wrapper .topics ul li:hover{
+    background: #07c07f;
+    border-radius: 15px;
+    transition: 0.6s ease;
+}
+.container .blog .wrapper .topics ul .last{
+    border: none;
 }
 .container .blog .wrapper .topics ul li a{
     text-decoration: none;
     font-size: 18px;
     font-weight: bold;
-    color: red;
+    color: #002245;
 }
 .container .blog .wrapper{
     margin-left: 10%;
@@ -813,6 +822,116 @@ footer .container .col ul li i{
     .subscription .subscribe .newsletter form{
         margin: 0;
         margin-top: 30px;
+    }
+    /*blog*/
+
+    .container .blog{
+        width: 100%;
+
+    }
+    .container .blog .top-banner{
+        height: 120vh;
+    }
+    .container .blog .top-banner .highlight-content{
+        display: block;
+        width: 100%;
+        align-items: center;
+        margin: 0;
+        padding: 15px 10px;
+        height: 900px;
+    } 
+    .container .blog .top-banner .highlight-content img{
+        height: 400px;
+        width: 100%;
+    }
+    .container .blog .top-banner .highlight-content .reading{
+        display: block;
+        margin: 0;
+        padding: 0;
+    }
+    .container .blog .breaking{
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        display: block;
+        padding: 15px 0px;
+    }
+    .container .blog .breaking button{
+        width: 80%;
+        margin-left: 10%;
+        padding: 5px 0px;
+    }
+    .container .blog .wrapper .topics ul li a{
+        font-size: 14px;
+    }
+    .container .blog .wrapper .topics ul li{
+        align-items: center;
+    }
+    .container .blog .wrapper .books{
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+    .container .blog .wrapper{
+        margin: 0;
+        padding: 0;
+        width: 90%;
+        margin-left: 5%;
+        padding: 10px 0px;
+    }
+    .container .blog .wrapper .books img{
+        height: 200px;
+        width: 100px;
+        margin-top: 50px;
+    }
+    .container .blog .news{
+        margin: 0;
+        padding: 20px 0px;
+        width: 90%;
+        margin-bottom: 15px;
+        margin-left: 5%;
+    }
+    .container .blog .news h2{
+        margin: 0;
+        padding: 5px 10px;
+    }
+    .container .blog .news p{
+        margin: 0;
+        padding: 5px 10px;
+    }
+    .container .blog .news h3{
+        margin: 0;
+        padding: 10px 20px;
+        width: 150px;
+        margin-left: 5%;
+    }
+    /*services*/
+    .service{
+        margin: 0;
+        padding: 0;
+    }
+    .service .container{
+        margin: 0;
+        padding: 0;
+    }
+    .service .container .wrapper{
+        margin: 0;
+        padding: 0;
+    }
+    .service .container .wrapper .box{
+        width: 20%;
+        margin-left: 5%;
+        margin: 0;
+        padding: 0;
+        font-size: 15px;
+    }
+    .service .container .wrapper .box i{
+        font-size: 12px;
+        width: 30px;
+        background: red;
+    }
+    .service .container .wrapper .box h1{
+        font-size: 8px;
     }
     /*footer*/
     footer{
